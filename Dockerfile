@@ -68,7 +68,7 @@ RUN /installation/00-preinstall.sh && \
 # 993 imaps (tls since connect)
 # 995 pop3s (tls since connect)
 # 4190 sieve
-EXPOSE 25 80 110 143 443 465 587 993 995 4190
+EXPOSE 25 80 110 143 443 465 587 993 995 4190 8080
 
 ADD rootfs VERSION /
 
